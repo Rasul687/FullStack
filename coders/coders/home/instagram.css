@@ -1,0 +1,127 @@
+
+body{
+    background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#container{
+    /* border: 1px solid rgb(169, 167, 167); */
+    width: 30%;
+    height: max-content;
+    margin: 3% auto 3% auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.header p{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+.description{
+    font-size: 24px;
+    color: #8e8e8e;
+}
+.facebook button{
+    color: white;
+    background-color:#0095fd;
+    border-radius:15px;
+    border: none;
+    width: 80%;
+    height: 2.5em;
+    margin: auto;
+    font-size: 16px;
+    
+}
+.facebook{
+    text-align: center;
+}
+.or p{
+    color: #8e8e8e;
+}
+.form{
+    text-align: center;
+}
+.form input{
+    width:75%;
+    height: 2.5em;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color:#fafafa;
+    
+}
+.description2{
+    text-align: center;
+    
+}
+.description2 p{
+    color:#8e8e8e;
+    word-spacing: 3%;
+    margin: 5% 10%;
+    
+}
+.description2 a{
+    text-decoration: none;
+}
+.bysigning{
+    text-align: center;
+}
+.bysigning p{
+    color:#8e8e8e;
+    word-spacing: 3%;
+    margin: 0 10% 3% 10%;
+}
+.bysigning a{
+    text-decoration: none;
+}
+.signbtn{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+   
+}
+.signbtn input{
+    background-color:#0095fd;
+    color: #fafafa;
+    width: 80%;
+    height: 3em;
+    border-radius:15px;
+    font-size: 15px;
+    border: none;
+}
+#haveaccaunt{
+    border: 1px solid #ffffff;
+    width: 30%;
+    
+    background-color: white;
+}
+#haveaccaunt a{
+    text-decoration: none;
+}
+#app{
+    display:flex;
+    width: 35%;
+    height: 5em;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    }
+#app img{
+    margin-left: 10%;
+
+}
+
+#navigation ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+ 
+
+}
+#navigation li{
+    margin-left:3%;
+    color: #000000;
+    margin-bottom: 5%;
+}

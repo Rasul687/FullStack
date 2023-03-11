@@ -1,0 +1,32 @@
+#container{
+    border: 1px solid black;
+    width: 30%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 27, 80);
+    margin-top: 10%;
+}
+.header{
+    background-color: rgb(37, 28, 113); 
+    color: white;
+    
+}
+.form form{
+    margin-top:4%;
+    
+}
+.form input{
+    margin-top:5%;
+    width: 80%;
+    height: 2.5em;
+    border-radius: 5px;
+}
+.form .button{
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+    background-color: rgb(58, 187, 22);
+    color: white;
+    font-size: 16px;
+}
